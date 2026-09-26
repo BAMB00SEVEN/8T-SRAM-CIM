@@ -47,26 +47,4 @@ CIM extension
 edge-AI-oriented evaluation
 ```
 
-## Suggested reading order
 
-Start with:
-- `02_low-voltage-low-leakage-8t`
-- `04_energy-efficient-8t-wide-frequency`
-- `05_low-leakage-sram-bitcell`
-- `09_sram-imc-survey`
-- `12_8t-cim-65nm`
-- `13_8t-cim-bnn`
-
-Then use the remaining papers to support specific design choices.
-
-## Literature-review rule
-
-Do not write:
-
-> "Paper X proves our proposed cell is better."
-
-Write:
-
-> "Paper X demonstrates that [documented technique] can reduce [metric] under [documented conditions]. This motivates investigating a related mechanism in our proposed cell."
-
-This keeps published evidence separate from our own simulation results.
